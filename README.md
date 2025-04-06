@@ -7,4 +7,4 @@
 
 **For seeds data file, please see the download link to download seeds.zip.
 Then extract it into project directory.**  
-File: [seeds.zip](https://drive.google.com/file/d/1lf1Cw1xiBQ2Jj8hiiG_rMkN-8d9pDufx/view?usp=sharing)
+**Link: <u>[Download-link](https://drive.google.com/drive/folders/11cjKW-_cXPc4APblPQ3uszl2pzVCe3GB?usp=sharing)</u>**
