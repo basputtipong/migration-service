@@ -1,0 +1,6 @@
+1.docker-compose build
+2.docker-compose up -d
+3.make migrate-create name=<filename> to create migration file
+4.make migrate-up
+5.make seed-all to seed all file in dir /seeds
+5.1 make seed-one file=seeds/<filename> to seed single file
