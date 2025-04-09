@@ -1,0 +1,1 @@
+CREATE INDEX idx_debit_cards_user_id ON debit_cards(user_id);
