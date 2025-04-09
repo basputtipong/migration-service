@@ -15,6 +15,8 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - backend
   migrate:
       image: migrate/migrate
       container_name: migration_tool
@@ -26,5 +28,11 @@ services:
       depends_on:
         db:
           condition: service_healthy
+      networks:
+        - backend
 volumes:
   mysql_data:
+
+networks:
+  backend:
+    name: backend
