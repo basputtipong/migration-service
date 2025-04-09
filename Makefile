@@ -11,7 +11,13 @@ SQL_DIR = seeds
 DB_CLI = docker exec -i $(DB_CONTAINER) mysql -u$(DB_USER) -p$(DB_PASSWORD) $(DB_NAME)
 
 
-.PHONY: migrate-up migrate-down migrate-version migrate-force migrate-create seed-all seed-one
+.PHONY: docker-build docker-up migrate-up migrate-down migrate-version migrate-force migrate-create seed-all seed-one
+
+docker-build:
+	docker-compose build
+
+docker-up:
+	docker-compose up -d
 
 migrate-up:
 	@echo "Running migration UP..."

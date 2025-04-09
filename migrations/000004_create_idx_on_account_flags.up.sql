@@ -1,0 +1,1 @@
+CREATE INDEX idx_account_flags_account_id ON account_flags(account_id);
