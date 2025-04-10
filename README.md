@@ -4,6 +4,13 @@
 #### 2. Start container
 - `make docker-up`  
 ***
+#### After container start, then you can connect to database(MySQL) with these configuration
+- `host: localhost`
+- `port: 3306`
+- `database: devdb`
+- `username: devusr`
+- `password: devpassword`
+***
 #### 3. Run migrate DB  
 - `make migrate-up`  
 ##### To create new migrate file  
