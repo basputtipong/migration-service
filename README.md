@@ -13,5 +13,6 @@
 - *`make seed-all` to seed all file in dir /seeds*  
 - *`make seed-one file=seeds/<filename>` to seed single file*  
 ***
-##### *For seeds data file, please see the download link to download seeds.zip. Then extract it into project directory.*  
+##### *For seeds data file, please see the download link to download seeds.zip*  
+##### *Then extract "seeds" folder into project directory.*  
 ##### Link: <u>[Download-link](https://drive.google.com/drive/folders/11cjKW-_cXPc4APblPQ3uszl2pzVCe3GB?usp=sharing)</u>
