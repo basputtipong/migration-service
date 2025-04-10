@@ -1,0 +1,1 @@
+DROP INDEX idx_banners_user_id ON banners;

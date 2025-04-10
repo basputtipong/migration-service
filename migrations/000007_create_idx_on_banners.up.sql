@@ -1,0 +1,1 @@
+CREATE INDEX idx_banners_user_id ON banners(user_id);

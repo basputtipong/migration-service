@@ -1,0 +1,1 @@
+DROP INDEX idx_transactions_user_id ON transactions;
