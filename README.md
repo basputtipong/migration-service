@@ -1,14 +1,15 @@
-#### To create container  
-- `docker-compose build`  
-#### To start container  
-- `docker-compose up -d`  
+## Migration-Service
+#### 1. Build container
+- `make docker-build`  
+#### 2. Start container
+- `make docker-up`  
 ***
-#### Run migrate DB  
+#### 3. Run migrate DB  
 - `make migrate-up`  
-#### To create new migrate file  
+##### To create new migrate file  
 - `make migrate-create name=<filename>` to create migration file  
 ***
-#### To seed data into DB
+#### 4. Seed data into DB
 - *`make seed-all` to seed all file in dir /seeds*  
 - *`make seed-one file=seeds/<filename>` to seed single file*  
 ***
